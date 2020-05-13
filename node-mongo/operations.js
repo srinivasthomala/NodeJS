@@ -19,5 +19,3 @@ exports.updateDocument = (db, document, update, collection, callback) => {
     const coll = db.collection(collection);
     return coll.updateOne(document, { $set: update }, null);
 };
-rn coll.updateOne(document, { $set:update }, null);
-};
